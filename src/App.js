@@ -1,7 +1,11 @@
+import { Alina } from "./components/Alina/Alina";
+
+
+
 function App() {
   return (
     <div className="App">
-    Hello World!
+   <Alina/>
     </div>
   );
 }
