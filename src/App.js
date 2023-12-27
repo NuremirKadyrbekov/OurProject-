@@ -1,7 +1,9 @@
+import Nuremir from "./components/Nuremir/Nuremir";
+
 function App() {
   return (
     <div className="App">
-    Hello World!
+    <Nuremir/>
     </div>
   );
 }
