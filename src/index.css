@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color-scheme: dark;
+}
+
+.btn:hover {
+    box-shadow: 4px 4px 48px 0px rgba(6, 143, 247, 0.845);
+    @apply 
+    bg-white
+    text-blue-600
+    transition-all;
+}
+.btn:active {
+    transform: scale(.97);
+    transition: .3;
+}
