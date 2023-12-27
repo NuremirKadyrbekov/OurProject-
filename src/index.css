@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    color-scheme: dark;
+}
+
 .btn:hover {
     box-shadow: 4px 4px 48px 0px rgba(6, 143, 247, 0.845);
     @apply 
